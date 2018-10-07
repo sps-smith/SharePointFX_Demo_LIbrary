@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "jqueryproject",
+    "libraryId": "ddee7bb9-5c43-40fe-9b38-a5f2de72c724",
+    "environment": "spo"
+  }
+}

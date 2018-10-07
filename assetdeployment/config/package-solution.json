@@ -1,0 +1,30 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "assetdeployment-client-side-solution",
+    "id": "2c63748a-b74e-41bf-b132-d04eb5e51a58",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "features": [{
+      "title": "asset-deployment-webpart-client-side-solution",
+      "description": "asset-deployment-webpart-client-side-solution",
+      "id": "523fe857-ced5-4036-b563-8dad5c6c5e21",     // <-- Update 'id' with a new GUID
+      "version": "1.0.0.1",
+      "assets": {
+        "elementManifests": [
+          "elements.xml",
+          "elements_v2.xml"
+        ],
+        "elementFiles":[
+          "schema.xml"
+        ],
+        "upgradeActions": [
+          "upgrade-actions-v2.xml"
+        ]
+      }
+    }]
+  },
+  "paths": {
+    "zippedPackage": "solution/assetdeployment.sppkg"
+  }
+}

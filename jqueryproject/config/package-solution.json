@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "jqueryproject-client-side-solution",
+    "id": "ddee7bb9-5c43-40fe-9b38-a5f2de72c724",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/jqueryproject.sppkg"
+  }
+}

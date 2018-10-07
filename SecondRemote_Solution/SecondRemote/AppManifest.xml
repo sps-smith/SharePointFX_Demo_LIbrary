@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="SecondRemote"
+     ProductID="{11ed5fd5-4027-4c5e-b61d-811f9adb18c1}"
+     Version="1.0.0.0"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>SecondRemote</Title>
+    <StartPage>~remoteAppUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <InstalledEventEndpoint>~remoteAppUrl/Services/AppEventReceiver.svc</InstalledEventEndpoint>
+  </Properties>
+
+  <AppPrincipal>
+    <RemoteWebApplication ClientId="7a30434f-5a94-4975-ac0b-744325fbd3f5" />
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="FullControl" />
+  </AppPermissionRequests>
+</App>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c39ee2a8-180f-4787-8327-1ce38dda6744" solutionId="c39ee2a8-180f-4787-8327-1ce38dda6744" resetWebServer="false" sharePointProductVersion="16.0" name="SecondRemote" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="22bce094-b8d3-4472-af2a-13558b5c8fd3" />
+  </features>
+</package>
