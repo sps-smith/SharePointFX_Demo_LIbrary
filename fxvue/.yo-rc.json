@@ -1,0 +1,16 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "none",
+    "pnpFramework": "vuejs"
+  },
+  "@microsoft/generator-sharepoint": {
+    "framework": "none",
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "social-news-webparts",
+    "libraryId": "238cd0c8-046f-4ef7-b58c-58398571157a",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

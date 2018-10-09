@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "social-news-webparts-client-side-solution",
+    "id": "238cd0c8-046f-4ef7-b58c-58398571157a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/social-news-webparts.sppkg"
+  }
+}

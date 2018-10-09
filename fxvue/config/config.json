@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "social-news-home-page-webparts-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/socialNewsHomePageWebparts/SocialNewsHomePageWebpartsWebPart.js",
+          "manifest": "./src/webparts/socialNewsHomePageWebparts/SocialNewsHomePageWebpartsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "vue": "./node_modules/vue/dist/vue.min.js"
+  },
+  "localizedResources": {
+    "SocialNewsHomePageWebpartsWebPartStrings": "lib/webparts/socialNewsHomePageWebparts/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
