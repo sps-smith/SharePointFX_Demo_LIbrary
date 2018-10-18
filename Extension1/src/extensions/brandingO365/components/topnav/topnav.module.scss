@@ -1,0 +1,13 @@
+div#dvtopnav ul{
+	display: flex;
+	-ms-flex-flow: row wrap;
+	-webit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	list-style: none;
+
+	li{
+		margin-right: 30px;
+		cursor: pointer;
+	}
+
+}

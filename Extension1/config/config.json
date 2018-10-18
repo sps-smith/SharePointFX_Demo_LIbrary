@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "branding-o-365-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/brandingO365/BrandingO365ApplicationCustomizer.js",
+          "manifest": "./src/extensions/brandingO365/BrandingO365ApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "vue": "./node_modules/vue/dist/vue.js"
+  },
+  "localizedResources": {
+    "BrandingO365ApplicationCustomizerStrings": "lib/extensions/brandingO365/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

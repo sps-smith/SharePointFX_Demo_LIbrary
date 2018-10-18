@@ -1,6 +1,6 @@
 <template>
     <div id="dvbutton">
-        <button id="btnOK" @click="clicked">OK</button>
+        <b-button  variant="success" id="btnOK" @click="clicked">Save</b-button>
     </div>
 </template>
 
@@ -8,5 +8,8 @@
     module.exports = require("./SocialButton");
 </script>
 
+<style src="./socialbutton.scss" lang="sass" scoped>
+
+</style>
 
 

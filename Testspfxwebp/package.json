@@ -1,5 +1,5 @@
 {
-  "name": "social-news-webparts",
+  "name": "testspfxwebp",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -15,12 +15,11 @@
     "@microsoft/sp-lodash-subset": "1.6.0",
     "@microsoft/sp-office-ui-fabric-core": "1.6.0",
     "@microsoft/sp-webpart-base": "1.6.0",
-    "@pnp/pnpjs": "^1.2.0",
+    "@pnp/pnpjs": "^1.2.2",
     "@pnp/spfx-property-controls": "1.10.0",
     "@types/es6-promise": "0.0.33",
     "@types/jquery": "^3.0.0",
     "@types/webpack-env": "1.13.1",
-    "bootstrap-vue": "^2.0.0-rc.11",
     "jquery": "^3.0.0",
     "vue": "^2.5.16",
     "vue-class-component": "^6.2.0",

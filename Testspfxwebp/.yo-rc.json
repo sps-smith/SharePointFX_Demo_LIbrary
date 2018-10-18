@@ -1,0 +1,16 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "none",
+    "pnpFramework": "vuejs"
+  },
+  "@microsoft/generator-sharepoint": {
+    "framework": "none",
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "testspfxwebp",
+    "libraryId": "f53a1742-3a8d-400a-849b-1bed6e931238",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
